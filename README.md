@@ -1,4 +1,4 @@
-# 🎧 Calls Music 2 — The first open-source project based on [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+# 🎧 Sujandra Musicall — The first open-source project based on [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
 ## ✍️ Requirements
 
@@ -36,11 +36,11 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### 💵 Heroku
 
-[Click here](https://heroku.com/deploy?template=https://github.com/callsmusic/callsmusic-2_heroku/)
+[Click here](https://heroku.com/deploy?template=https://github.com/Ependelope53/SujandraMusicallHeroku/)
 
 ## ℹ️ Commands
 
-| Command  | Description                                  |
+| Perintah | Deskripsi                                    |
 | -------- | -------------------------------------------- |
 | /play    | play the replied audio file or YouTube video |
 | /pause   | pause the audio stream                       |
