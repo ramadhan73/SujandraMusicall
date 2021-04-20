@@ -29,9 +29,9 @@ from callsmusic.helpers.filters import other_filters
 async def _(_, message: Message):
     if len(message.command) == 1:
         if rm_channel(message.chat.id):
-            await message.reply('Channel removed!')
+            await message.reply('Channel dihapus!')
         else:
-            await message.reply('Channel is not set!')
+            await message.reply('Channel tidak disetel!')
     else:
         chat_id = message.command[1]
         try:
