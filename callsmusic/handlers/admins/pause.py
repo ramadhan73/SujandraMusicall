@@ -26,6 +26,6 @@ from callsmusic.helpers.filters import other_filters
 @authorized_users_only
 async def _(_, message: Message):
     if pause(message.chat.id):
-        await message.reply_text('Paused!')
+        await message.reply_text('▶ Pemutaran lagu dihentikan!')
     else:
-        await message.reply_text('Nothing is playing!')
+        await message.reply_text('⚠ Tidak ada lagu yang dimainkan!')
