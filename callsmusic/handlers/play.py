@@ -36,7 +36,7 @@ async def _(_, message: Message):
         duration = round(audio.duration / 60)
         if duration > DURATION_LIMIT:
             raise DurationLimitError(
-                f'Videos longer than {DURATION_LIMIT} minute(s) aren’t allowed, the provided video is {duration} minute(s)',
+                f'Video lebih lama dari {DURATION_LIMIT} minute(s) tidak diperbolehkan, durasi video yang disediakan adalah {duration} minute(s)',
             )
         file_name = get.file_name(audio)
         file_path = await converter.convert(
@@ -46,9 +46,9 @@ async def _(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await message.reply_text('You did not give me anything to play!')
+        return await message.reply_text('Anda tidak memberi saya apapun untuk dimainkan! 😑')
     result = await play(message.chat.id, file_path)
     if result != -1:
-        await message.reply_text(f'Queued at position {result}!')
+        await message.reply_text(f'📍 Lagu dimasukkan kedalam antrian nomor {result}!')
     else:
-        await message.reply_text('Playing...')
+        await message.reply_text('✅ Memainkan lagu...')
