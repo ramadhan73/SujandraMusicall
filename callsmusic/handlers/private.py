@@ -22,27 +22,35 @@ from ..helpers.filters import other_filters2
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""I am an open-source @CallsMusic bot, I let you play music in your group’s voice chat.
+        f"""<b>👋🏻 Hai {message.from_user.first_name}!</b>
 
-The commands I currently support are:
+Aku adalah bot musik sujandra, bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
+Tidak mengetahui cara memakainya? Hubungi kontak pengembang! 
 
-/play - play the replied audio file or YouTube video
-/pause - pause the audio stream
-/resume - resume the audio stream
-/skip - skip the current audio stream
-/stop - clear the queue and remove the userbot from the call
-/channel - set chat channel (once set, the bot will play in that channel’s call)
+Perintah yang mendukung saat ini adalah:
+
+/play - Putar file/link audio yang di reply atau video YouTube.
+/pause - Jeda pemutaran audio/lagu.
+/resume - Lanjutkan pemutaran audio/lagu.
+/skip - Lewati pemutaran audio/lagu.
+/stop - Bersihkan antrian dan hapus bot pengguna dari panggilan.
+/channel - Setel saluran obrolan (setelah disetel, bot akan diputar di panggilan saluran itu).
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        'Group', url='https://t.me/callsmusicchat',
+                        "🙋‍♂️ Pengembang", url="https://t.me/AkuUserBot"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "💬 Grup", url="https://t.me/CariTemanRandom"
                     ),
                     InlineKeyboardButton(
-                        'Channel', url='https://t.me/callsmusic',
-                    ),
-                ],
-            ],
-        ),
+                        "Channel 🔈", url="https://t.me/Kutipankataaa"
+                    )
+                ]
+            ]
+        )
     )
