@@ -26,6 +26,6 @@ from callsmusic.helpers.filters import other_filters
 @authorized_users_only
 async def _(_, message: Message):
     if stop(message.chat.id):
-        await message.reply_text('Stopped!')
+        await message.reply_text('⏹ Hmm, lagu telah terputus dari obrolan suara!')
     else:
-        await message.reply_text('Nothing is playing!')
+        await message.reply_text('⚠ Tidak ada lagu yang berlangsung!')
