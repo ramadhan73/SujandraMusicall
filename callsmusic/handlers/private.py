@@ -40,15 +40,15 @@ Perintah yang mendukung saat ini adalah:
             [
                 [
                     InlineKeyboardButton(
-                        "🙋‍♂️ Pengembang", url="https://t.me/AkuUserBot"
+                        "🙋‍♂️ Pengembang", url="https://t.me/gksukaribett"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Grup", url="https://t.me/CariTemanRandom"
+                        "💬 Grup", url="https://t.me/wavyheartt"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/Kutipankataaa"
+                        "Channel 🔈", url="https://t.me/calonpenyanyi"
                     )
                 ]
             ]
