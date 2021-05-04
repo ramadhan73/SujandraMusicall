@@ -24,8 +24,8 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hai {message.from_user.first_name}!</b>
 
-Aku adalah bot musik sujandra, bot sumber terbuka yang memungkinkan Anda memutar musik di grup telegram Anda.
-Tidak mengetahui cara memakainya? Hubungi kontak pengembang! 
+Gua bot mussic santai, bot yang di buat untuk menemani waktu santai anda di vcg.
+Gk tau cara memakainya? Hubungi kontak pembuat! 
 
 Perintah yang mendukung saat ini adalah:
 
@@ -40,15 +40,15 @@ Perintah yang mendukung saat ini adalah:
             [
                 [
                     InlineKeyboardButton(
-                        "🙋‍♂️ Pengembang", url="https://t.me/AkuUserBot"
+                        " Pembuat 📌", url="https://t.me/gksukaribett"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Grup", url="https://t.me/CariTemanRandom"
+                        "Grup 📌", url="https://t.me/wavyheartt"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/Kutipankataaa"
+                        "Channel 📌", url="https://t.me/calonsinger"
                     )
                 ]
             ]
