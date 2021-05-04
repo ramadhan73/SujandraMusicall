@@ -34,9 +34,12 @@ Copy `example.env` to `.env` and fill it with your credentials.
    docker run --env-file .env musicplayer
    ```
 
-### 💵 Heroku
+### Deploy To Heroku</h4>
 
-[Click here](https://heroku.com/deploy?template=https://github.com/ramadhan73/SujandraMusicall)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ramadhan73/Music-Man)
+
+
+
 
 ## ℹ️ Commands
 
