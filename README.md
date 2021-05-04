@@ -36,7 +36,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### 💵 Heroku
 
-[Click here](https://heroku.com/deploy?template=https://github.com/ramadhan73/SujandraMusicallHeroku/)
+[Click here](https://heroku.com/deploy?template=https://github.com/ramadhan73/SujandraMusicall)
 
 ## ℹ️ Commands
 
