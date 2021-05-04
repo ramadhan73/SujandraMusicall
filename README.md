@@ -1,4 +1,4 @@
-# 🎧 Sujandra Musicall — The first open-source project based on [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
+# 🎧 MUSSIC SANTAI VCG  — The first open-source project based on [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
 ## ✍️ Requirements
 
