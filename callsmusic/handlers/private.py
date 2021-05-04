@@ -25,7 +25,7 @@ async def start(_, message: Message):
         f"""<b>👋🏻 Hai {message.from_user.first_name}!</b>
 
 Gua bot mussic santai, bot yang di buat untuk menemani waktu santai anda di vcg.
-Gk tau cara memakainya? Hubungi kontak pembuat! 
+Jangan lupa masukin juga assisten nya @Assistenmussicsantai_bot Gk tau cara memakainya? Hubungi kontak pembuat!  
 
 Perintah yang mendukung saat ini adalah:
 
